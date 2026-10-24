@@ -1,27 +1,62 @@
-Hi, I'm Sujan 👋
+# Hi, I'm Sujan Gupta 👋
 
-Telecommunications/Electronics Engineering student at Thapathali Engineering Campus, Kathmandu. Data science enthusiast with a published research paper on ML-based disease prediction.
+**AI/ML engineer in the making** · Electronics and Communication Engineering graduate (2026), Thapathali Engineering Campus · Kathmandu, Nepal
 
-1. 📄 CKD Prediction using Extra Trees & LightGBM
+I build machine-learning models and put them into working software: validated APIs, tests, Docker, and deployment. I care about models that can explain themselves.
 
-Published ML pipeline for early Chronic Kidney Disease detection from routine blood/urine tests, with SHAP-based interpretability. Extra Trees (99.3% acc.) and LightGBM (98.5% acc.) on the UCI CKD dataset. 📄 Paper (KJSE, DOI) · 💻 Code
+📄 Co-author of **"Early Prediction of Chronic Kidney Disease Using Extra Trees and LightGBM with SHAP Visualization"**, *KEC Journal of Science and Engineering (KJSE), Vol. 10, Issue 1*
 
-2. ✍️ Offline Signature Verification (Siamese CNN)
+🔎 **Looking for:** AI/ML engineer and backend roles, internships, or trainee positions (Nepal or remote)
 
-PyTorch Siamese network for offline signature verification, exploring ArcFace/Focal Contrastive/Hard Mining losses with CBAM attention and GeM pooling. Solved embedding collapse and data leakage; ~86–88% accuracy.
+---
 
-3. 📝 Flask Blog with Web Scraping
+## ⭐ Featured project
 
-Full-stack blog built with Flask + SQLAlchemy (SQLite), CKEditor for rich-text posts, and Selenium + BeautifulSoup for scraping content.
+### [Heart Risk API](https://github.com/Sujan-13/heart-risk-api) · [Live demo](https://heart-risk-api-lda6.onrender.com/docs)
 
-4. 📈 100 Days of Code — Advanced Data Science Track
+An explainable ML service that predicts heart disease risk and tells you why.
 
-10-project series covering Pandas, NumPy, Matplotlib/Seaborn/Plotly, time-series resampling, linear regression, and statistical testing. Capstone: house price prediction. 💻 Code
+- XGBoost model in a scikit-learn pipeline, tuned with Optuna
+- Per-prediction explanations with SHAP
+- FastAPI with validated inputs, prediction logging with PostgreSQL
+- Dockerized (non-root user, health check), tested with pytest, CI with GitHub Actions
+- Deployed on Render
 
-⚙️ Tech I Work With
+`Python` `FastAPI` `XGBoost` `SHAP` `PostgreSQL` `Docker` `GitHub Actions`
 
-Python · PyTorch · scikit-learn · LightGBM · XGBoost · SQL · NumPy/SciPy/Pandas · Flask/SQLAlchemy · Selenium/BeautifulSoup · Node.js · React
+---
 
-📫 Reach Me
-GitHub: @Sujan-13
-LinkedIn: sujan-g
+## 🧪 Other work
+
+| Project | What it is | Tech |
+|---|---|---|
+| Chronic kidney disease prediction (published paper) | Early detection with interpretable tree models | Extra Trees, LightGBM, SHAP |
+| Signature verification | Offline signature verification using a Siamese network | PyTorch, CNN |
+| Fraud detection | Imbalanced classification with time-aware validation | XGBoost, Optuna, TimeSeriesSplit |
+| Dry bean classification | 7-class classification with cross-validated pipelines | scikit-learn, StratifiedKFold, ROC AUC |
+| Flask blog application | Web app with a relational database and CRUD features | Flask, SQLAlchemy |
+
+More projects are in [Portfolio-projects](https://github.com/Sujan-13/Portfolio-projects).
+
+---
+
+## 🛠️ Tech I work with
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+**ML and data:** pandas, NumPy, scikit-learn, XGBoost, LightGBM, Optuna, SHAP, PyTorch
+**Backend:** FastAPI, Flask, Pydantic, SQLAlchemy / SQLModel, PostgreSQL, REST APIs
+**Engineering:** Docker, pytest, GitHub Actions, Git, Render
+
+## 📫 Get in touch
+
+[LinkedIn](https://www.linkedin.com/in/sujan-g-545aa7187) · [Email](mailto:sujangupta217@gmail.com)
