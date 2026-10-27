@@ -10,19 +10,42 @@ I build machine-learning models and put them into working software: validated AP
 
 ---
 
-## ⭐ Featured project
+## ⭐ Featured projects
 
-### [Heart Risk API](https://github.com/Sujan-13/heart-risk-api) · [Live demo](https://heart-risk-api-lda6.onrender.com/docs)
+### 1. [Heart Risk API](https://github.com/Sujan-13/heart-risk-api) · [Live demo](https://heart-risk-api-lda6.onrender.com/docs)
 
 An explainable ML service that predicts heart disease risk and tells you why.
 
 - XGBoost model in a scikit-learn pipeline, tuned with Optuna
 - Per-prediction explanations with SHAP
-- FastAPI with validated inputs, prediction logging with PostgreSQL
+- FastAPI with validated inputs and prediction logging in PostgreSQL
 - Dockerized (non-root user, health check), tested with pytest, CI with GitHub Actions
 - Deployed on Render
 
 `Python` `FastAPI` `XGBoost` `SHAP` `PostgreSQL` `Docker` `GitHub Actions`
+
+### 2. [Pumpkin Seed API](https://github.com/Sujan-13/pumpkin-seed-api) · [Live demo](https://pumpkin-seed-api.onrender.com/docs)
+
+Classifies pumpkin seed varieties from 12 shape measurements and explains each prediction.
+
+- XGBoost classifier compared with logistic regression
+- SHAP analysis showing the model separates long, narrow seeds from short, round ones
+- Pydantic validation with ranges taken from the training data
+- Multi-stage Docker build, pytest tests, and CI that validates the compose file and builds the image
+- Deployed on Render
+
+`Python` `FastAPI` `XGBoost` `SHAP` `Docker` `GitHub Actions`
+
+### 3. [Early Prediction of Chronic Kidney Disease](https://github.com/Sujan-13/CKD-Detection-using-ML) · [Published paper](https://doi.org/10.3126/kjse.v10i1.93861)
+
+Peer-reviewed research on detecting chronic kidney disease early from routine blood and urine test results.
+
+- UCI CKD dataset (400 patients, 24 features)
+- Extra Trees reached 99.3% accuracy and LightGBM 98.5%, evaluated with 5-fold cross-validation
+- SHAP showed albumin, hemoglobin, and specific gravity (Extra Trees) and albumin, hemoglobin, and serum creatinine (LightGBM) as the key predictors
+- Published in the *KEC Journal of Science and Engineering*, Vol. 10, Issue 1
+
+`Python` `Extra Trees` `LightGBM` `SHAP` `scikit-learn`
 
 ---
 
@@ -30,7 +53,6 @@ An explainable ML service that predicts heart disease risk and tells you why.
 
 | Project | What it is | Tech |
 |---|---|---|
-| Chronic kidney disease prediction (published paper) | Early detection with interpretable tree models | Extra Trees, LightGBM, SHAP |
 | Signature verification | Offline signature verification using a Siamese network | PyTorch, CNN |
 | Fraud detection | Imbalanced classification with time-aware validation | XGBoost, Optuna, TimeSeriesSplit |
 | Dry bean classification | 7-class classification with cross-validated pipelines | scikit-learn, StratifiedKFold, ROC AUC |
@@ -57,6 +79,7 @@ More projects are in [Portfolio-projects](https://github.com/Sujan-13/Portfolio-
 **Backend:** FastAPI, Flask, Pydantic, SQLAlchemy / SQLModel, PostgreSQL, REST APIs
 **Engineering:** Docker, pytest, GitHub Actions, Git, Render
 
+
 ## 📫 Get in touch
 
-[LinkedIn](https://www.linkedin.com/in/sujan-g-545aa7187) · [Email](mailto:sujangupta217@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/sujan-g-545aa7187) · [Email](mailto:your-email@example.com)
