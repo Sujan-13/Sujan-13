@@ -82,4 +82,4 @@ More projects are in [Portfolio-projects](https://github.com/Sujan-13/Portfolio-
 
 ## 📫 Get in touch
 
-[LinkedIn](https://www.linkedin.com/in/sujan-g-545aa7187) · [Email](mailto:your-email@example.com)
+[LinkedIn](https://www.linkedin.com/in/sujan-g-545aa7187) · [Email](mailto:sujangupta217@gmail.com)
